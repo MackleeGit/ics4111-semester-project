@@ -82,4 +82,4 @@ The following datasheets and reference links have been retrieved for the five sp
 ![Architecture B](assets/question_4_b.png)
 
 #### c. 1 ESP32S connected to 1 DHT22 connected to 1 relay which is connected to another ESP32S connected to 1 MQ-5
-![Architecture C](assets/question_4_c.png)
+![Architecture C](assets/question_4_c.jpeg)
