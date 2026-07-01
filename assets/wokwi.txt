@@ -1,3 +1,0 @@
-Architecture A = https://wokwi.com/projects/467691136827675649
-Architecture B = 
-Architecture C = 
