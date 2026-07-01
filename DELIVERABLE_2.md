@@ -36,7 +36,6 @@
 **2. Physical Model**
 * **Hardware Setup:** ![Architecture A Physical Board](assets/media/physical_A_board.jpeg)
 * **LCD Output Display:** ![Architecture A LCD Output](assets/media/physical_A_LCD.jpeg)
-* **IDE Serial Monitor Output:** ![Architecture A Serial Monitor](assets/media/serial_A.jpeg)
 
 ---
 
@@ -53,7 +52,7 @@
 *(Develop EITHER a physical or simulated model)*
 
 **1. Simulated Model**
-* **Wokwi Project Link:** [Architecture C Wokwi Link ]
+* **Wokwi Project Link:** https://wokwi.com/projects/468278859076488193
 
 ---
 
@@ -61,10 +60,10 @@
 
 **If by chance you experience technical prototyping issues that couldn’t be resolved before the deliverable due date, ensure your clearly document the problem, all possible solutions explored and recommend for any changes to resolve the issue.**
 
-* **Issue 1: Missing DHT22 in Simulation Environment (Architecture A)**
-  * **Problem:** The DHT22 sensor was unavailable in the Wokwi component library during the simulation build for Architecture A.
+* **Issue 1: Missing MQ-5 in Simulation Environment (Architecture A)**
+  * **Problem:** The MQ-5 gas sensor was unavailable in the Wokwi component library during the simulation build for Architecture A.
   * **Solutions Explored:** We explored creating a custom part JSON, but it proved unstable for environmental variance. 
-  * **Recommendation/Workaround:** We substituted the DHT22 with a **potentiometer** in the simulation. This successfully mimics the dynamic analog voltage swings required to test our firmware's environmental state changes without delaying the prototype.
+  * **Recommendation/Workaround:** We substituted the MQ-5 with a **potentiometer** in the simulation. Since the MQ-5 outputs an analog voltage proportional to gas concentration, a potentiometer serves the same purpose by providing a variable analog signal, successfully mimicking the sensor's output to test our firmware's environmental state changes without delaying the prototype.
 
 * **Issue 2: Display Component Substitution (Architecture A)**
   * **Problem:** The original schematic designated an I2C OLED display (128x32). Due to lab component availability constraints, we could not source this exact screen.
