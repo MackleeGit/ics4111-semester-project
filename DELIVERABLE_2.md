@@ -43,8 +43,10 @@
 *(Develop EITHER a physical or simulated model)*
 
 **1. Physical Model**
-* **Hardware Setup:** ![Architecture B Physical Board](assets/media/physical_B_board.jpeg)
-* **IDE Serial Monitor Output (Showing combined data stream):** ![Architecture B Serial Monitor](assets/media/serial_B.jpeg)
+* **Hardware Setup:** <br>
+![Architecture B Physical Board](assets/media/physical_B_board.jpeg)
+* **IDE Serial Monitor Output (Showing combined data stream):** <br>
+![Architecture B Serial Monitor](assets/media/serial_B.jpeg)
 
 ---
 
